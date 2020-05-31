@@ -1,0 +1,15 @@
+/* Table auto-increment serial number */
+.css-serial {
+
+/* Set the serial number counter to 0 */
+	counter-reset: serial-number;  
+  }
+  
+  .css-serial td:first-child:before {
+
+/* Increment the serial number counter */
+  counter-increment: serial-number;  
+
+   /* Display the counter */
+	content: counter(serial-number); 
+  }
