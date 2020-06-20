@@ -2,6 +2,8 @@
 
 Registration page with Google reCAPTCHA and DeBounce email validation
 
+- Written in PHP CodeIgniter 3 framework
+- Login system: create a new user and receive email validation
 
 ----------------------------------------------------------
 
